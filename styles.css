@@ -113,3 +113,18 @@ ul {
 .intro>p {
     text-align: center;
 }
+
+.park-search {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 18rem;
+    border-radius: 15px;
+    outline: none;
+    height: 2rem;
+    text-align: center;
+}
+
