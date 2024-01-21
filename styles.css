@@ -17,20 +17,25 @@ html,body
 
 header {
     margin-bottom: 50px;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #94C65C;
+}
+
+.nav-branding {
+    margin-left: 20px;
+    color: #ab3f3f;
 }
 
 h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 
 .nav-menu a {
-    color: hsl(273, 4%, 51%);
+    color: #ab3f3f;
 }
 
 .nav-menu a:hover {
-    color: hsl(256, 26%, 20%);
+    color: #b14e4e;
 }
 
 a {
@@ -67,6 +72,7 @@ ul {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 6px;
   }
 
 .nav-menu {
@@ -77,15 +83,20 @@ ul {
 }
 
 .nav-menu button {
-    border: 1px solid hsl(256, 26%, 20%);
+    border: none;
+    outline: 0;
     text-align: center;
     margin-top: 0;
-    color: hsl(256, 26%, 20%);
+    border-radius: 5px;
+    color: #fff;
     cursor: pointer;
+    margin: 24px 0 24px 0;
+    background-color: #94C65C;
 }
 
 .nav-menu button:hover {
-    background-color: hsl(256, 26%, 20%);
+    background-color: #a1d863;
+    box-shadow: ;
     color: hsl(0, 0%, 98%);
 }
 
