@@ -96,7 +96,7 @@ ul {
 
 .nav-menu button:hover {
     background-color: #a1d863;
-    box-shadow: ;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
     color: hsl(0, 0%, 98%);
 }
 
@@ -109,9 +109,6 @@ ul {
 }
 
 .intro {
-    /* background-image: url(images/globe\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size: cover; */
     display: flex;
     justify-content: space-between;
     margin: 0 70px 0 70px;
@@ -203,6 +200,10 @@ form>button {
     margin-left: 10px;
 }
 
+.tracker {
+    margin-top: 70px;
+}
+
 .tracker-digit {
     margin-top: 30px;
     text-align: center;
@@ -219,4 +220,15 @@ form>button {
     display: inline-block;
     width: 32px;
     background-color: #e44e4e;
+}
+
+.ticker-label{
+    margin-top: 10px;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: auto;
 }
