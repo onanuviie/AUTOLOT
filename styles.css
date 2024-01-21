@@ -202,3 +202,21 @@ form>button {
     height: 340px;
     margin-left: 10px;
 }
+
+.tracker-digit {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.digit-counter {
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    margin: 0 1px;
+    padding: 2px 5px;
+    background: linear-gradient(#ab3f3f #b14e4e #c76464 #e44e4e);
+    color: #fff;
+    font-size: 2rem;
+    display: inline-block;
+    width: 32px;
+    background-color: #e44e4e;
+}
