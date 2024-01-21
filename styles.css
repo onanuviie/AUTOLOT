@@ -98,11 +98,12 @@ ul {
 }
 
 .intro {
-    background-image: url(images/globe\ \(1\).png);
+    /* background-image: url(images/globe\ \(1\).png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 85%;
-    width: 100vw;
+    background-size: cover; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px 0 70px;
 }
 
 .intro>h1 {
@@ -116,21 +117,77 @@ ul {
 
 .park-search {
     margin-top: 45px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 input {
     width: 18rem;
-    border-radius: 15px;
+    padding: 5px;
+    border: none;
     outline: none;
-    height: 2rem;
-    text-align: center;
+    border-bottom: 3px solid #b14e4e;
+    font-size: 16px;
 }
 
 form>button {
-    height: 2.3rem;
+    margin-left: 12px;
+    height: 3.5rem;
+    width: 6rem;
     border-radius: 15px;
     outline: none;
     border: none;
+    background-color: #94C65C;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.map-hint, .map-hint::before {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    background: #ab3f3f;
+}
+
+.map-hint::before {
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    z-index: 1;
+    margin-left: -6px;
+    width: 12px;
+    height: 12px;
+    height: 12px;
+    content: "";
+    transform: rotate(45deg);
+}
+
+.map-hint {
+    border-radius: 4px;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-bottom: 36px;
+    padding: 14px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 39rem;
+    margin-top: 22px;
+}
+
+.map-hint::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 3;
+    margin-left: -20px;
+    width: 40px;
+    height: 10px;
+    background: #ab3f3f;
+    content: "";
+}
+
+.map-image {
+    width: 590px;
+    height: 340px;
+    margin-left: 10px;
 }
