@@ -277,6 +277,48 @@ form>button:hover{
     font-size: 1.3rem;
 }
 
+footer {
+    margin-top: 70px;
+    background-color: #ab3f3f;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-socials>.nav-branding>h1 {
+    color: #f8f8f8;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.footer-socials {
+    margin-left: 80px;
+}
+
+.footer-links {
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 50px 0 70px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #f8f8f8;
+}
+
+.footer-links div {
+    width: 150px;
+    margin: 0 0 40px 0;
+}
+
+.social-media>span {
+    margin-right: 15px;
+}
+
+ul>li>a {
+    color: #f8f8f8;
+}
+
+
 .digit-counter.flip {
     animation: 0.6s linear flipping;
 }
