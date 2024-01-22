@@ -14,14 +14,16 @@ function generateRandom(num1, num2) {
 
 function refresh() {
     setInterval(() => {
-        alterdOne.textContent = generateRandom(1,9)
-        alterdOne.classList.add('flip')
-    }, 2000)
+        alterdOne.textContent = generateRandom(1, 9);
+        alterdOne.classList.add('flip');
+        setTimeout(() => { alterdOne.classList.remove('flip') }, 1600); 
+    }, 2000);
 
     setInterval(() => {
-        alterdTwo.textContent = generateRandom(1,9)
-        alterdTwo.classList.add('flip')
-    }, 3000)
+        alterdTwo.textContent = generateRandom(1, 9);
+        alterdTwo.classList.add('flip');
+        setTimeout(() => { alterdTwo.classList.remove('flip') }, 1600); 
+    }, 3000);
 }
 
 refresh()
