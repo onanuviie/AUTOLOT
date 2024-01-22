@@ -17,13 +17,13 @@ function refresh() {
         alterdOne.textContent = generateRandom(1, 9);
         alterdOne.classList.add('flip');
         setTimeout(() => { alterdOne.classList.remove('flip') }, 1600); 
-    }, 2000);
+    }, 3000);
 
     setInterval(() => {
         alterdTwo.textContent = generateRandom(1, 9);
         alterdTwo.classList.add('flip');
         setTimeout(() => { alterdTwo.classList.remove('flip') }, 1600); 
-    }, 3000);
+    }, 8300);
 }
 
 refresh()
