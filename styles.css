@@ -67,6 +67,10 @@ ul {
     display: none;
 }
 
+.nav-button>a {
+    color: #f8f8f8;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -101,6 +105,10 @@ ul {
 .nav-menu button:hover {
     background-color: #a1d863;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    color: hsl(0, 0%, 98%);
+}
+
+.nav-menu button>a:hover {
     color: hsl(0, 0%, 98%);
 }
 
@@ -240,6 +248,33 @@ form>button:hover{
     justify-content: space-between;
     width: 400px;
     margin: auto;
+}
+
+.paper-map-image {
+    width: 590px;
+    height: 340px;
+    margin-left: 30px;
+}
+
+.how-it-works {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explanations {
+    margin-left: 60px;
+    margin-right: 40px;
+    width: 650px;
+}
+
+.explanations>h1 {
+    font-size: 2rem;
+    color: #ab3f3f;
+}
+
+.explanations>p {
+    font-size: 1.3rem;
 }
 
 .digit-counter.flip {
