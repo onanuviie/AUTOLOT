@@ -16,13 +16,40 @@
     flex-direction: column;
 }
 
+.heading-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 h1 {
     color: #ab3f3f;
-    margin-bottom: 60px;
+    margin: 30px 0 30px 0;
+}
+
+.map-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 iframe {
-    width: 80%;
-    height: 500px;
+    width: 70%;
+    height: 420px;
     filter: invert(100%);
+}
+
+.check-btn {
+    height: 2.1rem;
+    border: none;
+    outline: none;
+    background-color: #94C65C;
+    font-weight: 600;
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    text-align: center;
 }
