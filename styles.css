@@ -147,7 +147,14 @@ form>button {
     border: none;
     background-color: #94C65C;
     color: #fff;
+    font-weight: 600;
     font-size: 1rem;
+}
+
+form>button:hover{
+    background-color: #a1d863;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    color: hsl(0, 100%, 100%);
 }
 
 .map-hint, .map-hint::before {
